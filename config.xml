@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.architecgraphic.ciputraworldsurabaya"
+        versionCode="13" 
+        version   = "1.0.0">
+		
+	<!-- For more information about using config.xml, see
+		https://build.phonegap.com/docs/config-xml -->
+
+
+	
+	<!-- this app will have no device api access -->
+	<preference name="permissions" value="none"/>
+	<preference name="orientation" value="universal" />
+    <preference name="target-device" value="universal" />  
+	
+	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
+    <icon src="icon.png"/>
+
+
+    <name>Ciputra World 360° virtual tour</name>
+
+    <description>
+        360° virtual tour of Ciputra World Surabaya. Designed and created by Architec Graphic Boutique.
+    </description>
+
+    <author href="https://architecgraphic.com" email="abednego@architecgraphic.com">
+        Yanuar Abednego 
+    </author>
+
+</widget>
